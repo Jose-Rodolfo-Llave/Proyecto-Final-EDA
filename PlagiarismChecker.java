@@ -52,7 +52,6 @@ public class PlagiarismChecker {
 			BufferedReader bf = new BufferedReader(new FileReader(doc));
 			String bfRead;
 			while ((bfRead = bf.readLine()) != null) {
-				System.out.println(bfRead);
 				text.insert(bfRead, cont);
 				cont++;
 			}
